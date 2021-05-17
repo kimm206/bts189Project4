@@ -1,0 +1,163 @@
+        header {
+            background-color: #feb72b;
+            font-family: 'Dancing Script', cursive;
+            text-align: center;
+        }
+        
+        .border {
+            background-color: #527318;
+            padding: 0em;
+            border-width: 4px;
+            border-style: solid;
+            border-color: black;
+            margin: 2%;
+            border-top-left-radius: 1px solid;
+            border-top-right-radius: 2px solid;
+            border-bottom-left-radius: 1px solid;
+            border-bottom: 2px solid;
+            border-radius: 60 px 40 px;
+        }
+        
+        .borderbody {
+            background-color: #ffe75e;
+            border-width: 2px;
+            border-style: solid;
+            border-color: black;
+            margin: 5%;
+            border-top: 2px solid;
+            border-left: 2px solid;
+            padding-left: 1em;
+            border-radius: 1em;
+            padding: 2em;
+        }
+        
+        body {
+            background-color: #feb72b;
+            margin: 5em;
+            padding: 0;
+            font-family: 'Dancing Script', cursive;
+        }
+        
+        nav {
+            margin: 2%;
+        }
+        
+        ul {
+            display: inline-block;
+            list-style-type: none;
+            background-color: #899857;
+            text-align: center;
+            margin: 5px;
+            justify-content: center;
+        }
+        
+        li {
+            list-style-type: none;
+            font-size: 1.5em;
+            padding: 10px;
+            display: inline-block;
+            color: rgb(0, 0, 0);
+            text-align: center;
+        }
+        
+        li a {
+            text-decoration: none;
+            padding: 10px 30px;
+            color: #feb72b;
+        }
+        /* mouse over link */
+        
+        a:hover {
+            color: rgb(26, 26, 26);
+            background-color: white;
+            text-decoration: none
+        }
+        
+        .title {
+            text-align: center;
+            font-style: italic;
+            font-size: 5em;
+        }
+        
+        .imgfloat {
+            float: right;
+            margin: 30px;
+            top: 50%;
+            left: 50%;
+            height: 390px;
+            width: 455px;
+        }
+        
+        .side {
+            width: 20%;
+            padding-left: 2em;
+            margin: 1em;
+            line-height: 1.5em;
+            float: left;
+            font-style: italic;
+            font-size: 1.25em;
+            box-shadow: inset 5px 0 5px -5px black
+        }
+        
+        .greentext {
+            color: rgb(0, 128, 0);
+            font-variant: normal;
+            font-family: 'Dancing Script', cursive;
+            font-size: 1.5em;
+        }
+        
+        .graytext {
+            color: rgb(72, 72, 72);
+            font-variant: normal;
+            font-family: 'Dancing Script', cursive;
+            font-size: 1.5em;
+        }
+        
+        .bluetext {
+            color: rgb(65, 105, 225);
+            font-variant: normal;
+            font-family: 'Dancing Script', cursive;
+            font-size: 1.5em;
+        }
+        
+        .whitetext {
+            color: rgb(255, 255, 255);
+            font-variant: normal;
+            font-family: 'Dancing Script', cursive;
+            font-size: 1.5em;
+        }
+        
+        .silvertext {
+            color: rgb(192, 192, 192);
+            font-variant: normal;
+            font-family: 'Dancing Script', cursive;
+            font-size: 1.5em;
+        }
+        
+        .yellowtext {
+            color: rgb(255, 255, 0);
+            font-variant: normal;
+            font-family: 'Dancing Script', cursive;
+            font-size: 1.5em;
+        }
+        
+        .centerimage {
+            display: block;
+            margin: auto;
+            width: 50%;
+        }
+        
+        .column {
+            display: flex;
+            float: inline-end;
+            padding: 20px;
+            height: 50px;
+            width: 100%;
+        }
+        /* Clear floats after the columns */
+        
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
